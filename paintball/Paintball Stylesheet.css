@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+.topnav {
+  background-color: #2F2F2F;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00000;
+  color: white;
+}
+
+body {
+  background-image: linear-gradient(Purple, Blue)
+}
+
+h1 { 
+	text-align: center;
+	font-family: "Dois-Bold";
+	font-weight: normal;
+	text-transform: uppercase;
+	border-bottom: 1px solid #57b1dc;
+	margin-top: 30px;
+	color: white;
+	
+}
+
+h2 {
+    color: #35E900;
+    font-size: 1em;
+    font-family: "Dois-Bold";
+    text-decoration: underline;
+	
+}
+
+p {
+	color: white;
+	font-family: "Dois-Medium";
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
