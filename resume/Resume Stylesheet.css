@@ -35,7 +35,7 @@ li {
 	color: white;
 	 list-style-type: square;
 	list-style-position: inside;
-	padding-left: 300px;
+	text-align: center;
 	font-family: 'Kalam-Light';
 	
 }
